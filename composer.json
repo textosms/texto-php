@@ -1,0 +1,44 @@
+{
+  "name": "texto/sdk",
+  "description": "Official PHP SDK for the Texto SMS API",
+  "type": "library",
+  "license": "MIT",
+  "keywords": ["sms", "texto", "messaging", "australia"],
+  "homepage": "https://texto.com.au",
+  "authors": [
+    {
+      "name": "Texto (Floop Pty Ltd)",
+      "email": "support@texto.com.au",
+      "homepage": "https://texto.com.au"
+    }
+  ],
+  "support": {
+    "email": "support@texto.com.au",
+    "docs": "https://texto.com.au/developers",
+    "source": "https://github.com/textosms/texto-php"
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.6 || ^10.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Texto\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Texto\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
