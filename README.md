@@ -1,6 +1,6 @@
 # Texto PHP SDK
 
-Official PHP SDK for the [Texto](https://texto.com.au) SMS API.
+Official PHP SDK for the Texto [SMS API](https://texto.com.au).
 
 ## Requirements
 
@@ -97,7 +97,7 @@ Idempotent requests are retried automatically with backoff.
 
 ## Support
 
-- Docs: https://texto.com.au/developers
+- [SMS API](https://texto.com.au/api) Docs: https://texto.com.au/api
 - Email: support@texto.com.au
 
 MIT licensed. Copyright (c) 2026 Floop Pty Ltd trading as Texto.
